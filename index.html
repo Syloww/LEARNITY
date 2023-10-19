@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/connexion.css">
+    <title>LEARNITY</title>
+</head>
+<body>
+    <div class="millieu">
+        <div class="centre">
+            <div class="titre">LEARNITY</div>
+            <div class="soustitre">AUTHENTIFICATION</div>
+        </div>
+        <div class="container">
+            <form id="loginForm" method="post">
+                <label for="username" class="text">Identifiant :</label>
+                <input type="text" id="username" name="username" required>
+    
+                <label for="password" class="text">Mot de passe:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <button type="button" onclick="validateForm()">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="fin">Politique de confidentialité</div>
+    <script src="script.js"></script>
+</body>
+</html>
